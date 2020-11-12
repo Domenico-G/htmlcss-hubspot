@@ -42,13 +42,13 @@ body {
   text-align: center;
   color: #fff;
   font-size: 17px;
-  border-radius: 3px;
+  border-radius: 6px;
 }
 
 .box-shadow {
   background: #fff;
   box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 /* FINE COMMON STYLE, UTILITIES --------------------- */
@@ -174,7 +174,6 @@ body {
 
 .container-service {
   background: #f5f8fa;
-  height: 800px;
 }
 
 .box-service-title {
@@ -250,7 +249,7 @@ body {
   display: inline-block;
   padding: 0 10px 0 0 ;
   padding-bottom: 13px;
-  font-size: 20px;
+  font-size: 17px;
   color: #33475b;
   font-weight: 500;
 
@@ -262,8 +261,72 @@ body {
   padding-right: 10px;
 }
 
+.section-blur {
+  padding: 50px 0;
+}
+
+.box-blur {
+ width: 33%;
+ padding-right: 20px;
+}
+
+.box-blur:nth-child(2) {
+  padding: 0px 10px;
+}
+
+.box-blur:nth-child(3) {
+ padding: 0 0 0 20px;
+}
+
+.blur {
+  text-align: center;
+  padding: 20px 35px;
+}
+
+.blur > h3 {
+  padding-bottom: 30px;
+  font-size: 25px;
+  color: #33475b;
+}
+.blur > p {
+  padding-bottom: 70px;
+  font-size: 15px;
+  color: #33475b;
+  font-weight: 600;
+  line-height: 1.4;
+  border-bottom: 2px solid #808080;
+}
 
 
+.blur > h4 {
+  padding: 30px 0;
+  font-size: 18px;
+  color: #33475b;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.feature-blur {
+  text-align: left;
+  padding: 0 10px 0 0 ;
+  padding-bottom: 50px;
+  font-size: 17px;
+  color: #33475b;
+  font-weight: 500;
+}
+
+.feature-blur > p::before {
+  display: inline-block;
+  content: url('../img/check-orange.png');
+  padding-right: 5px;
+}
+
+.blur > .button {
+  margin: 0 auto;
+  padding: 20px 0;
+  font-size: 15px;
+  width: 150px;
+}
 
 
 
