@@ -53,6 +53,7 @@ body {
 /* inizio stili navbar top */
 .container-top-nav {
   background: #f5f8fa;
+  border-bottom: 1px solid #33475b;
 }
 
 .box-top-nav:first-child {
@@ -67,9 +68,12 @@ body {
 
 .box-top-nav > ul > li{
   display: inline-block;
-  color: #33475b;
   font-size: 17px;
   font-weight: 500;
+}
+
+.box-top-nav > ul > li > a, i {
+  color: #33475b;
 }
 
 .box-top-nav:first-child > ul > li:nth-child(2) {
@@ -82,4 +86,38 @@ body {
   margin-left: 20px;
 }
 
+.button-nav {
+  color: #ff7a59;
+  background: #f5f8fa;
+  border: 1px solid #ff7a59;
+}
+
 /* fine stili navbar top */
+
+/* stili menu */
+
+.container-menu {
+  background: #fff1ee;
+}
+
+.menu {
+  padding: 25px 0;
+}
+
+.menu > ul > li {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.menu > ul > li > a {
+  color: #33475b;
+}
+
+.logo {
+  position: relative;
+  top: 20px;
+}
+
+/* fine stili menu */
