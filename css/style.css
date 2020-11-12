@@ -158,5 +158,36 @@ body {
   font-weight: 500
 }
 
-
 /* fine stili jumbotron */
+
+/* fine stile HEADER ------------------------------------- */
+
+/* STILI main ---------------------------------------- */
+
+/* stili service */
+
+.container-service {
+  background: #f5f8fa;
+  height: 800px;
+}
+
+.box-service-title {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.box-service-title > h2 {
+  font-size: 30px;
+  color: #33475b;
+}
+
+.box-service-title > p {
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #33475b;
+}
+
+
+/* fine stili service */
