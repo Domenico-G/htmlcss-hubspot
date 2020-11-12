@@ -45,6 +45,12 @@ body {
   border-radius: 3px;
 }
 
+.box-shadow {
+  background: #fff;
+  box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+  border-radius: 10px;
+}
+
 /* FINE COMMON STYLE, UTILITIES --------------------- */
 
 /* STILI HEADER ------------------------------------- */
@@ -182,12 +188,84 @@ body {
 }
 
 .box-service-title > p {
+  width: 70%;
+  margin: 0 auto;
   padding: 20px 0;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   line-height: 1.5;
   color: #33475b;
 }
+
+.box-1 {
+  height: 300px;
+  width: 35%;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.img-bt > div {
+  width: 160px;
+  margin: 10px auto;
+  padding: 20px 0;
+  font-weight: 500;
+}
+
+.box-2 {
+  padding: 60px 60px 0 0;
+  width: 65%;
+}
+
+.box-2 > h3 {
+  padding-bottom: 20px;
+  font-size: 25px;
+  color: #33475b;
+}
+
+.box-2 > h6 {
+  padding-bottom: 20px;
+  font-size: 15px;
+  color: #33475b;
+  font-weight: 600;
+}
+
+.box-2 > p {
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: #33475b;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.box-2 > p::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #808080;
+    width: 350px;
+    margin: 0 0 0 50px;
+    transform: translateY(-3px);
+}
+
+.feature > p {
+  display: inline-block;
+  padding: 0 10px 0 0 ;
+  padding-bottom: 13px;
+  font-size: 20px;
+  color: #33475b;
+  font-weight: 500;
+
+}
+
+.feature > p::before {
+  display: inline-block;
+  content: url('../img/check-orange.png');
+  padding-right: 10px;
+}
+
+
+
+
+
 
 
 /* fine stili service */
