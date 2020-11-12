@@ -29,8 +29,6 @@ body {
 .page-container {
   width: 100%;
   min-width: 1080px;
-  height: 100vh;
-  background: red;
 }
 
 .row {
@@ -97,7 +95,7 @@ body {
 /* stili menu */
 
 .container-menu {
-  background: #fff1ee;
+  background: #fff7f4;
 }
 
 .menu {
@@ -121,3 +119,44 @@ body {
 }
 
 /* fine stili menu */
+
+/* inizio stili jumbotron */
+
+.container-jumbotron {
+  width: 100%;
+  background: url("../img/jumbotron.png") no-repeat center bottom, linear-gradient(to top right,#fef8f0,#fff3ee,#fff1ee);
+}
+
+.jumbo-tx {
+  width: 50%;
+  padding-bottom: 280px;
+}
+
+.jumbo-tx > h1 {
+  font-size: 50px;
+  color: #33475b;
+  padding: 70px 0 40px 0;
+}
+
+.jumbo-tx > h5 {
+  font-size: 16px;
+  color: #33475b;
+  margin-bottom: 50px;
+  font-weight: 500
+}
+
+.jumbo-tx > span {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px 30px;
+}
+
+.jumbo-tx > p {
+  font-size: 12px;
+  color: #33475b;
+  margin-top: 50px;
+  font-weight: 500
+}
+
+
+/* fine stili jumbotron */
