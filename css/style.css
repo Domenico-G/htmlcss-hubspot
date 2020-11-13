@@ -51,6 +51,10 @@ body {
   border-radius: 6px;
 }
 
+.fas {
+  padding: 0 5px;
+}
+
 /* FINE COMMON STYLE, UTILITIES --------------------- */
 
 /* STILI HEADER ------------------------------------- */
@@ -129,9 +133,24 @@ body {
 /* inizio stili jumbotron */
 
 .container-jumbotron {
+  position: relative;
   width: 100%;
   background: url("../img/jumbotron.png") no-repeat center bottom, linear-gradient(to top right,#fef8f0,#fff3ee,#fff1ee);
 }
+
+.container-jumbotron::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  background: #afebe4;
+  height: 80px;
+  width: 100%;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
+}
+
+
 
 .jumbo-tx {
   width: 50%;
@@ -333,7 +352,7 @@ body {
 /* stili contenitore learn grow */
 
 .container-learn {
-  padding: 70px 0;
+  padding: 150px 0;
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
 }
 
@@ -472,6 +491,33 @@ body {
   height: 380px;
 }
 
-
-
 /* fine stili sezione partners */
+
+/* fine main ---------------------------------------- */
+
+/* inizio stili footer ------------------------------- */
+
+.widget-container {
+  background: #2d3e50;
+  padding: 40px 0;
+}
+
+.widget {
+width: 25%;
+}
+
+.widget > h4 {
+  padding: 15px 0;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500px;
+
+}
+
+.widget > p {
+  padding: 10px 0;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400px;
+
+}
