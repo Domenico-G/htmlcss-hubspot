@@ -433,6 +433,19 @@ body {
   padding-top: 90px;
 }
 
+.row-top-partners > div:last-child > .img > img {
+  width: 110px;
+}
+
+.row-top-partners > div:last-child > .img {
+  height: 100px;
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+
+
 .row-top-partners > div > h4 {
   font-size: 50px;
   color: #33475b;
@@ -531,6 +544,16 @@ width: 25%;
   font-weight: 600;
   text-align: left;
   margin: 20px 0;
+}
+
+.social > li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.social > li > i {
+  font-size: 15px;
+  color: #fff;
 }
 
 .footer-container {
