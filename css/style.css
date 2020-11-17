@@ -150,8 +150,6 @@ body {
   border-bottom: 3px solid #33475b;
 }
 
-
-
 .jumbo-tx {
   width: 50%;
   padding-bottom: 280px;
@@ -215,7 +213,7 @@ body {
   color: #33475b;
 }
 
-.box-1 {
+.col-1 {
   height: 300px;
   width: 35%;
   padding: 60px 0;
@@ -229,33 +227,34 @@ body {
   font-weight: 500;
 }
 
-.box-2 {
+.col-2 {
   padding: 60px 60px 0 0;
   width: 65%;
 }
 
-.box-2 > h3 {
+.col-2 > h3 {
   padding-bottom: 20px;
   font-size: 25px;
   color: #33475b;
 }
 
-.box-2 > h6 {
+.col-2 > h6 {
+  width: 90%;
   padding-bottom: 20px;
   font-size: 15px;
   color: #33475b;
   font-weight: 600;
 }
 
-.box-2 > p {
-  padding-bottom: 20px;
+.col-2 > p {
+  padding-bottom: 60px;
   font-size: 20px;
   color: #33475b;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.box-2 > p::after {
+.col-2 > p::after {
     display: inline-block;
     content: "";
     border-top: 2px solid #808080;
@@ -430,7 +429,7 @@ body {
 
 .row-top-partners > div:last-child {
   width: 60%;
-  padding-top: 90px;
+  padding-top: 100px;
 }
 
 .row-top-partners > div:last-child > .img > img {
@@ -462,6 +461,10 @@ body {
   width: 40%;
 }
 
+.row-bot-partners > div:last-child {
+  width: 60%;
+}
+
 .row-bot-partners > div:first-child > h4 {
   font-size: 25px;
   color: #33475b;
@@ -487,11 +490,6 @@ body {
   color: #33475b;
   font-weight: 600;
 }
-
-.row-bot-partners > div:last-child {
-  width: 60%;
-}
-
 
 .img-woman {
   text-align: right;
